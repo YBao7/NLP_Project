@@ -7551,7 +7551,7 @@ a.anchor-link {
 <h3 id="Data">Data<a class="anchor-link" href="#Data">¶</a></h3><p>This study is part of a larger project involving 5404 middle school students (Grades 6-8) enrolled in MATHia, a digital Math Learning platform that serves as complementary instructional support. Due to the data privacy agreement and the scope of the research interests, the demographic information for the school districts, schools, teachers, and students involved in this study is not disclosed. Students followed teachers’ instructions to engage with instructional materials in MATHia. After the overall learning sessions, students were prompted to respond to an open-ended question: “<em>As you were working on this content, how did you motivate yourself? Please describe in as much detail as you can.</em>”<br/></p>
 <p>An open-ended question coding team comprised two research assistants (RAs) and the PIs. First, the two RAs read through a random sample of 30% of the total data and individually categorized student responses into different strategies following the coding protocol developed by Mottett et al. (in prep). Specifically, 0 indicates that the response does not reflect a particular motivational strategy, and 1 indicates that the response explicitly demonstrates or mentions one strategy. The two RAs then discussed and compared their categories, resolving any discrepancies that emerged. If an unlabeled motivational strategy repeatedly appeared during this initial review, the RAs consulted with the PIs to determine whether the pattern reflected a conceptually distinct theme. Together, the team engaged in iterative discussions to define, refine, and formalize this new category before proceeding with full dataset coding. From there, they developed a sample-adaptive protocol that included explanations of the strategies and example responses. The two RAs then coded another random sample used to develop the protocol (30% of the data). Using this refined protocol, the two RAs coded another random 30% sample. Once interrater reliability reached acceptable thresholds (Cohen’s κ &gt; .70 and &gt;90% agreement), the RAs independently coded the remaining responses.<br/></p>
 <p>At the time of analysis, the whole coding process was still ongoing. Therefore, the present study focuses on a subsample of student responses (N = 764) that had already been fully coded according to the finalized coding protocol. Meanwhile, I conducted an additional manual inspection of the coded dataset to examine the frequency distribution of each motivational strategy. Based on this inspection, the current analysis focuses on the three most frequently observed codes: Willpower, Performance Self-Talk, and Effort, as these strategies appeared most frequently and provided a strong foundation for modeling students’ motivational patterns. A condensed coding protocol is provided below.</p>
-<img alt="Results for Performance Self-talk" src="TF-IDF Assignment_files/images/Coding_Rubric.png" width="800"/>
+<img alt="Results for Performance Self-talk" src="Assignment_files/images/Coding_Rubric.png" width="800"/>
 <h4 id="Data-Cleaning-and-Preprocessing">Data Cleaning and Preprocessing<a class="anchor-link" href="#Data-Cleaning-and-Preprocessing">¶</a></h4><p>All open-ended responses were processed using a multi-stage text-cleaning pipeline designed to remove noise, standardize linguistic structure, and prepare the data for subsequent natural language processing (NLP) analyses.</p>
 <h5 id="Text-Normalization"><em>Text Normalization</em><a class="anchor-link" href="#Text-Normalization">¶</a></h5><p>We first standardized the raw text input to ensure uniform formatting across responses. All entries were converted to strings and converted to lowercase. Non-alphabetic characters, such as numbers, punctuation, and symbols, were removed by using regular expressions. Responses containing fewer than three characters were excluded at this stage, as they are more likely not to contain interpretable linguistic content.</p>
 </div>
@@ -8780,10 +8780,10 @@ weighted avg       0.89      0.88      0.88       208
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>For Performance Self-talk and Effort, the results of logistic regression and the top 20 positive and negative word-predictors are reported below.</p>
-<img alt="Results for Performance Self-talk" src="TF-IDF Assignment_files/images/Full_Logistic_Performance.png" width="400"/>
-<img alt="Results for Performance Self-talk" src="TF-IDF Assignment_files/images/top20_Performance.png" width="600"/>
-<img alt="Results for Effort" src="TF-IDF Assignment_files/images/Full_Logistic_Effort.png" width="400"/>
-<img alt="Results for Effort" src="TF-IDF Assignment_files/images/top20_Effort.png" width="600"/>
+<img alt="Results for Performance Self-talk" src="Assignment_files/images/Full_Logistic_Performance.png" width="400"/>
+<img alt="Results for Performance Self-talk" src="Assignment_files/images/top20_Performance.png" width="600"/>
+<img alt="Results for Effort" src="Assignment_files/images/Full_Logistic_Effort.png" width="400"/>
+<img alt="Results for Effort" src="Assignment_files/images/top20_Effort.png" width="600"/>
 </div>
 </div>
 </div>
@@ -8951,10 +8951,10 @@ weighted avg       0.78      0.77      0.77       208
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>For Performance Self-talk and Effort, the results of logistic regression by using the reduced-feature are reported below.</p>
-<img alt="Results for Performance Self-talk" src="TF-IDF Assignment_files/images/top50_performance.png" width="1960"/>
-<img alt="Results for Performance Self-talk" src="TF-IDF Assignment_files/images/reduced_model_Performance.png" width="800"/>
-<img alt="Results for Effort" src="TF-IDF Assignment_files/images/top50_effort.png" width="1960"/>
-<img alt="Results for Effort" src="TF-IDF Assignment_files/images/reduced_model_Effort.png" width="800"/>
+<img alt="Results for Performance Self-talk" src="Assignment_files/images/top50_performance.png" width="1960"/>
+<img alt="Results for Performance Self-talk" src="Assignment_files/images/reduced_model_Performance.png" width="800"/>
+<img alt="Results for Effort" src="Assignment_files/images/top50_effort.png" width="1960"/>
+<img alt="Results for Effort" src="Assignment_files/images/reduced_model_Effort.png" width="800"/>
 </div>
 </div>
 </div>
