@@ -46,7 +46,7 @@ Concretely, the pipeline:
 - Open-ended responses from middle-school students using the MATHia digital math platform
 
 ### Figure 1. Interface of a learning session in the MATHia
-![MATHia Demonstration.png](MATHia%20Demonstration.png)
+![MATHia Demonstration](https://github.com/YBao7/NLP_Project/blob/7ad3df4e96010969df319eb1ed0394f4e5f540f9/Images/MATHia%20Demonstration.png)
 
 - Students answered this open-ended prompt:  
 > “As you were working on this content, how did you motivate yourself? Please describe in as much detail as you can.”
@@ -111,7 +111,7 @@ For each strategy:
 All models achieved performance **well above chance (0.50 accuracy)**, with F1 scores around **0.72–0.79**.
 
 ### Figure 2. Confusion matrix heatmaps from machine learning
-![ML output.png](ML%20output.png)
+![ML output](https://github.com/YBao7/NLP_Project/blob/7ad3df4e96010969df319eb1ed0394f4e5f540f9/Images/ML%20output.png)
 
 ### 2.5 Semantic Similarity Analysis
 
@@ -130,5 +130,5 @@ For each strategy:
 Across all three strategies, **strategy-present responses** showed significantly higher similarity to their respective keyword sets than strategy-absent responses.
 
 ### Figure 3. Box plots of semantic similarity scores
-![Semantic Similarity.png](Semantic%20Similarity.png)
+![Semantic Similarity](https://github.com/YBao7/NLP_Project/blob/7ad3df4e96010969df319eb1ed0394f4e5f540f9/Images/Semantic%20Similarity.png)
 ---
