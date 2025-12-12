@@ -7,7 +7,8 @@ This repository contains code for a pilot study that uses TF–IDF–based natur
 - **Effort**
 
 ### Table 1. A condensed coding protocol for motivational regulation strategies: Definitions and examples
-https://github.com/YBao7/NLP_Project/blob/7ad3df4e96010969df319eb1ed0394f4e5f540f9/Images/Coding%20Rubric.png
+![Coding Rubric](https://raw.githubusercontent.com/YBao7/NLP_Project/7ad3df4e96010969df319eb1ed0394f4e5f540f9/Images/Coding%20Rubric.png)
+
 
 Using students’ open-ended responses and human-coded annotations, the project builds interpretable models that approximate human judgments of whether a given strategy is present in a response.
 
